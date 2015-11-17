@@ -4,30 +4,6 @@
 // };
 
 // But instead we're going to implement it from scratch:
-var getElementsByClassName = function(className) { 
-/*//	var ptag = '<p class=""></p>';
-		var expectedNodeList = [];
-		console.log(typeof className);
-//  var tmp = document.children();
-		var tmp = document.getElementsByTagName("*");
-//  var regex = new RegExp("(^|\s)" + className + "(\s|$)");
-		var regex = new RegExp("(^|\s)" + className + "(\s|$)");
-  	console.log(tmp);
-		console.log(regex);
-    
-		for ( var i = 0; i < tmp.length; i++ ) {
-	//		 	console.log(tmp[i]);
-			if (regex.test(tmp[i].className)) {
-				expectedNodeList.push(tmp[i]);
-			}
-		}
-		console.log(expectedNodeList);
-		return expectedNodeList;
-	
-//	console.log(document.getElementByTagName("p"));
-//	expectedNodeList.push(document.getElementByTagName("p"));
-//	console.log(expectedNodeList);*/
-};
 
 //------------------------------------------------------------------
 /*var getElementsByClassName = function(className) {
